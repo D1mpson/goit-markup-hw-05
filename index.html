@@ -598,7 +598,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="conteiner footer-conteiner">
         <div class="footer-con-first">
@@ -685,5 +684,54 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <form class="form">
+          <fieldset class="modal-set">
+            <legend class="modal-legend">Leave your contacts and we will call you back</legend>
+
+            <label class="modal-lable">
+              Name
+              <input class="text-in" type="text" name="name" />
+            </label>
+
+            <label class="modal-lable">
+              Phone
+              <input class="text-in" type="tel" name="phone" />
+            </label>
+
+            <label class="modal-lable">
+              Email
+              <input class="text-in" type="email" name="email" />
+            </label>
+
+            <label class="modal-lable">
+              Comment
+              <textarea
+                class="text-in text-area"
+                rows="6"
+                name="comment"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+
+            <label class="modal-lable checkbox-label">
+              <input
+                class="checkbox-input"
+                type="checkbox"
+                name="radio"
+                value="complete"
+              />
+              <span class="checkbox-text"
+                >I accept the terms and conditions of the
+                <a href="#" target="_blank">Privacy Policy</a></span
+              >
+            </label>
+          </fieldset>
+          <button class="button-form" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
