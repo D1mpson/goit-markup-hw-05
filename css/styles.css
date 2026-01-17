@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -10,13 +10,13 @@ body {
     font-weight: 500;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0;
@@ -37,7 +37,7 @@ p {
     padding: 0;
 }
 
-h2{
+h2 {
     padding: 0;
     margin: 0;
     font-weight: 700;
@@ -48,7 +48,7 @@ h2{
     color: #2e2f42;
 }
 
-h3{
+h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -58,27 +58,27 @@ h3{
     margin-top: 0;
 }
 
-header{
+header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-legend{
+legend {
     margin-bottom: 16px
 }
 
 input[type=text],
 input[type=tel],
-input[type=email]{
+input[type=email] {
     width: auto;
     height: 40px;
     padding: 11px 38px;
-    margin: 4px 0;
+    margin: 4px 0 0;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
 }
 
-textarea{
+textarea {
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
@@ -86,7 +86,7 @@ textarea{
     resize: none;
 }
 
-label{
+label {
     padding: 8px 0 0;
 }
 
@@ -101,11 +101,11 @@ label{
     padding-right: 76px;
 }
 
-.accent{
+.accent {
     color: #4D5AE5;
 }
 
-.nav{
+.nav {
     display: flex;
     align-items: center;
 }
@@ -131,7 +131,7 @@ label{
     padding: 24px 0;
 }
 
-.nav-a-active{
+.nav-a-active {
     display: block;
     position: relative;
     color: #404bbf;
@@ -143,7 +143,7 @@ label{
     color: #404bbf;
 }
 
-.nav-a-active::after{
+.nav-a-active::after {
     background-color: #404bbf;
     color: #404bbf;
     position: absolute;
@@ -173,24 +173,24 @@ label{
     font-weight: 400;
 }
 
-.address-ul{
+.address-ul {
     display: flex;
     gap: 40px;
 }
 
 
-.address-link{
+.address-link {
     color: #434455;
     transition: color 120ms ease-in-out;
     padding: 24px 0;
 }
 
 .address-link:hover,
-.address-link:focus{
+.address-link:focus {
     color: #404bbf;
 }
 
-.background-title{
+.background-title {
     background-color: #2e2f42;
     margin: 0 auto;
     max-width: 1440px;
@@ -201,7 +201,7 @@ label{
 
 }
 
-.title{
+.title {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -213,7 +213,7 @@ label{
     max-width: 500px;
 }
 
-.order-service-button{
+.order-service-button {
     border: 0px;
     background-color: #4d5ae5;
     color: #fff;
@@ -228,7 +228,7 @@ label{
     transition: background-color 120ms ease-in-out;
 }
 
-.order-service-button:hover{
+.order-service-button:hover {
     background-color: #404bbf;
 }
 
@@ -237,12 +237,12 @@ label{
     gap: 24px;
 }
 
-.our-team{
+.our-team {
     text-align: center;
     padding-bottom: 72px;
 }
 
-.managers{
+.managers {
     display: flex;
     text-align: center;
     gap: 24px;
@@ -258,12 +258,12 @@ label{
 }
 
 
-.portfolio{
+.portfolio {
     text-align: center;
     margin: 120px auto 0;
 }
 
-.portfolio-ul{
+.portfolio-ul {
     display: flex;
     row-gap: 48px;
     column-gap: 24px;
@@ -273,7 +273,7 @@ label{
 }
 
 
-.portfolio-li p{
+.portfolio-li p {
     text-align: left;
 }
 
@@ -281,24 +281,25 @@ label{
     text-align: left;
 }
 
-.portfolio-border{
-    border: 1px solid #e7e9fc;;
+.portfolio-border {
+    border: 1px solid #e7e9fc;
+    ;
     border-top: transparent;
     padding: 32px 16px;
 }
 
 
-.portfolio-li:hover{
+.portfolio-li:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
+    background: #fff;
 }
 
 
-.section-second{
+.section-second {
     background-color: #f4f4fd;
 }
 
-.footer{
+.footer {
     background-color: #2e2f42;
 }
 
@@ -311,7 +312,7 @@ label{
     letter-spacing: 0.03em;
 }
 
-.footer-text{
+.footer-text {
     color: #fff;
     max-width: 264px;
     padding: 16px 0;
@@ -323,7 +324,7 @@ label{
     margin: 0 auto;
 }
 
-.header-conteiner{
+.header-conteiner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -331,46 +332,46 @@ label{
     align-items: center;
 }
 
-.title-conteiner{
+.title-conteiner {
     text-align: center;
     padding: 188px 0;
 }
 
-.first-conteiner{
+.first-conteiner {
     display: flex;
     padding: 120px 0;
 }
 
-.second-conteiner{
+.second-conteiner {
     padding: 120px 0;
     display: flex;
     flex-direction: column;
 }
 
-.manager-text-conteiner{
+.manager-text-conteiner {
     padding: 32px 16px;
 }
 
-.conteiner-portfolio{
+.conteiner-portfolio {
     display: flex;
     text-align: center;
     flex-direction: column;
 }
 
-.footer-conteiner{
+.footer-conteiner {
     padding: 100px 0 0 15px;
     min-height: 312px;
     display: flex;
     gap: 120px
 }
 
-.portfolio-overlay{
+.portfolio-overlay {
     position: relative;
     overflow: hidden;
 }
 
 
-.portfolio-overlay-p{
+.portfolio-overlay-p {
     left: 0;
     top: 0;
     width: 100%;
@@ -382,22 +383,22 @@ label{
     transition: transform 250ms ease-in-out;
 }
 
-.portfolio-overlay-p p{
+.portfolio-overlay-p p {
     margin: 0;
     padding: 0;
     text-align: justify;
     color: #F4F4FD;
 }
 
-.portfolio-overlay:hover .portfolio-overlay-p{
+.portfolio-overlay:hover .portfolio-overlay-p {
     transform: translateY(0);
 }
 
-.icon{
+.icon {
     fill: #2E2F42;
 }
 
-.section-first-box{
+.section-first-box {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 264px;
@@ -408,14 +409,15 @@ label{
     align-items: center;
     margin-bottom: 8px;
 }
-.social-media{
+
+.social-media {
     padding-top: 8px;
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.social-media-link{
+.social-media-link {
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
@@ -430,11 +432,11 @@ label{
     background-color: #404bbf;
 }
 
-.social-media-svg{
-    fill:#F4F4FD;
+.social-media-svg {
+    fill: #F4F4FD;
 }
 
-.social-media-text-footer{
+.social-media-text-footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -453,19 +455,20 @@ label{
 
     transition: background-color 120ms ease-in-out;
 }
+
 .social-media-link-footer:hover {
     background-color: #31d0aa;
 }
 
 
-.social-media-ul-footer{
+.social-media-ul-footer {
     padding-top: 16px;
     display: flex;
-    gap:16px;
+    gap: 16px;
 }
 
 
-.modal-overlay{
+.modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
     top: 0;
@@ -482,7 +485,7 @@ label{
 }
 
 
-.modal{
+.modal {
     background-color: #fcfcfc;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     width: 408px;
@@ -491,13 +494,13 @@ label{
     border-radius: 4px;
 }
 
-.modal-legend{
+.modal-legend {
     color: #2e2f42;
     font-weight: 500;
     text-align: center;
 }
 
-.modal-set{
+.modal-set {
     display: flex;
     flex-direction: column;
     border: none;
@@ -510,6 +513,8 @@ label{
     display: flex;
     flex-direction: column;
 
+    position: relative;
+
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
@@ -517,7 +522,7 @@ label{
     color: #8e8f99;
 }
 
-.checkbox-label{
+.checkbox-label {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -525,7 +530,7 @@ label{
     margin-bottom: 24px;
 }
 
-.checkbox-input{
+.checkbox-input {
     margin: 0;
     flex-shrink: 0;
 }
@@ -538,7 +543,7 @@ label{
     color: #8e8f99;
 }
 
-.privacy-policy{
+.privacy-policy {
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
@@ -549,7 +554,7 @@ label{
     color: #4d5ae5;
 }
 
-.button-form{
+.button-form {
     border: 0px;
     background-color: #4d5ae5;
     color: #fff;
@@ -560,14 +565,22 @@ label{
     height: 56px;
     margin: 0 auto;
     display: block;
-    
+
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     transition: background-color 120ms ease-in-out;
 }
 
-.text-area{
+.text-area {
     height: 120px;
     overflow-y: auto;
 }
 
+
+.svg-input{
+    fill: #2E2F42;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 16px;
+}
