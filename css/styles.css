@@ -73,7 +73,6 @@ input[type=email] {
     width: auto;
     height: 40px;
     padding: 11px 38px;
-    margin: 4px 0 0;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
 }
@@ -504,6 +503,7 @@ label {
     display: flex;
     flex-direction: column;
     border: none;
+    gap: 4px;
     padding: 0;
     margin: 0;
 
@@ -514,7 +514,7 @@ label {
     flex-direction: column;
 
     position: relative;
-
+    padding-bottom: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: 117%;
@@ -576,13 +576,26 @@ label {
     overflow-y: auto;
 }
 
+.modal-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-input-con{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .svg-input{
-    fill: #2E2F42;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: block;
-    top: 50%;
-    left: 16px;
+fill: #2e2f42;
+left: 16px;
+top: 50%;
+transform: translateY(-50%);
+position: absolute;
 }
+
+
+
+
