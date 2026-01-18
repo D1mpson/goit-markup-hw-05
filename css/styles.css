@@ -336,6 +336,7 @@ textarea {
 .first-conteiner {
     display: flex;
     padding: 120px 0;
+    justify-content: center;
 }
 
 .second-conteiner {
@@ -404,6 +405,10 @@ textarea {
     background-color: #f4f4fd;
     align-items: center;
     margin-bottom: 8px;
+}
+
+.section-first-p{
+    max-width: 264px;
 }
 
 .social-media {
