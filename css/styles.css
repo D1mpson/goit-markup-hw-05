@@ -536,6 +536,7 @@ textarea {
     line-height: 117%;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    
 }
 
 .privacy-policy {
@@ -619,4 +620,83 @@ position: absolute;
     text-align: center;
     color: #2e2f42;
     padding-bottom: 8px;
+}
+
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: flex-start;
+    margin-bottom: 24px;
+    cursor: pointer;
+    user-select: none;
+    align-items: flex-end;
+}
+
+/* Скрываем стандартный чекбокс */
+.checkbox-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+/* Контейнер для SVG */
+.custom-checkbox {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+
+    margin-top: 2px;
+}
+
+.checkbox-icon {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    fill: transparent;
+}
+
+/* Когда чекбокс отмечен */
+.checkbox-input:checked~.custom-checkbox .checkbox-icon {
+    border-color: #4d5ae5;
+    background-color: #4d5ae5;
+    fill: #fff;
+}
+
+/* Состояние hover для unchecked */
+.checkbox-label:hover .checkbox-icon {
+    border-color: #4D5AE5;
+}
+
+/* Состояние focus (для доступности) */
+.checkbox-input:focus-visible~.custom-checkbox {
+    outline: 2px solid #4D5AE5;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.checkbox-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.privacy-policy {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+.privacy-policy:hover {
+    color: #404bbf;
 }
