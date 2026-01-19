@@ -71,6 +71,12 @@ header {
     padding: 1px 2px 1px 38px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    transition: border 120ms ease;
+    outline: none;
+}
+
+.text-in:focus {
+    border: 1px solid #4d5ae5;
 }
 
 textarea {
@@ -83,8 +89,12 @@ textarea {
     font-size: 12px;
     line-height: 117%;
     letter-spacing: 0.04em;
+    outline: none;
 }
 
+textarea:focus{
+    border: 1px solid #4d5ae5;
+}
 
 .logo-header {
     text-transform: uppercase;
@@ -363,9 +373,6 @@ textarea {
     margin-right: 120px;
 }
 
-.footer-con-second{
-    margin-right: 80px;
-}
 
 .portfolio-overlay {
     position: relative;
@@ -488,6 +495,7 @@ textarea {
     opacity: 0;
     pointer-events: none;
     
+    transition: opacity 300ms ease-in-out;
 }
 
 .modal-overlay.is-open{
@@ -495,15 +503,6 @@ textarea {
     pointer-events: auto;
 }
 
-
-.modal{
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fcfcfc;
-    padding: 72px 24px 24px;
-    border-radius: 4px;
-    width: 408px;
-    position: absolute;
-}
 
 .modal {
     top: 50%;
@@ -571,6 +570,10 @@ textarea {
     flex-direction: column;
 }
 
+.input-subscribe{
+    margin-left: auto;
+}
+
 
 .svg-input{
 fill: #2e2f42;
@@ -578,6 +581,11 @@ left: 16px;
 top: 50%;
 transform: translateY(-50%);
 position: absolute;
+transition: fill 120ms ease-in-out;
+}
+
+.text-in:focus + .svg-input{
+    fill: #4d5ae5;
 }
 
 .svg-input-button {
